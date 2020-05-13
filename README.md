@@ -1,6 +1,6 @@
 Bonjour,
 
-Je vous remercie tout d'abord pour m'avoir donné l'occasion d'écrire ces trois programmes.
+Je vous remercie tout d'abord de m'avoir donné l'occasion d'écrire ces trois programmes.
 
 Je me suis malheureusement heurté à quelques difficultés, ce qui fait que je n'ai pas pu aboutir au résultat que j'attendais : je me sus rendu-compte un peu tard que mon serveur s'interrompait dès lors que le client se fermait, ce qui, malheureusement, ne permet pas de conserver la sauvegarde du tableau de résultat (l'état de suivi_des_taches).
 
