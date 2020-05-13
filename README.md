@@ -17,4 +17,4 @@ Pour finir, le binaire .so traite correctement les indices variant de 0 à 93 - 
 
 Merci encore, et bonne lecture !
 
-PS : chacun des script fonctionne avec Python 3 (3.6.9 sur ma machine) et Python 2 (2.7.17 sur ma machine).
+PS : chacun des script fonctionne avec Python 3 (3.6.9 sur ma machine) et Python 2 (2.7.17 sur ma machine) ; n'oubliez pas de mettre à jour le chemin de la librairie dynamique dans le fichier server.py.
