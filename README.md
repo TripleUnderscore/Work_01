@@ -9,7 +9,7 @@ J'ai donc essayé de corriger le problème, sans succès à ce jour. En ce qui m
   - utiliser un FORK de façon à ce qu'un fils du processus relatif au serveur se ferme : il y aura donc la conservation de l'état de la variable suivi_des_taches.
   
 Malgré le fait que le client et le serveur ne communiquent pas de façon optimale, j'ai cependant obtenu les résultats espérés dès lors que je communiquais avec un interpréteur :
-    - INTERPRETEUR <--> server.py : fonctionnement optimal.
+    \n- INTERPRETEUR <--> server.py : fonctionnement optimal.
     - INTERPRETEUR <--> client.py : fonctionnement optimal.
 
 Pour finir, je pense aussi que certaines choses, comme par exemple la levée et le traitement des Exceptions, peuvent être optimisées.
