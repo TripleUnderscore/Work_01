@@ -11,7 +11,9 @@ Malgré le fait que le client et le serveur ne communiquent pas de façon optima
   - INTERPRETEUR <--> server.py : fonctionnement optimal.
   - INTERPRETEUR <--> client.py : fonctionnement optimal.
 
-Pour finir, je pense aussi que certains aspects, tels que la levée et le traitement des Exceptions, peuvent être optimisés.
+Je pense aussi que certains aspects, tels que la levée et le traitement des Exceptions, peuvent être optimisés.
+
+Pour finir, le binaire .so traite correctement les indices variant de 0 à 93 - au delà duquel le nomrbe de Fibonacci correspondant ne peut pas être représenté sur 64 bits - ; cependant, ces valeurs, quand elles dépassent 32 bits, ne sont plus traitées correctement lors de l'appel du binaire par le serveur (je corrigerai aussi ce problème par la suite).
 
 Merci encore, et bonne lecture !
 
