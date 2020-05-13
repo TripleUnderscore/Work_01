@@ -14,9 +14,7 @@ uint64_t fibonacci_module(uint64_t indice)
 	}
 	else
 	{
-		indice--;
-
-		for (uint64_t i = 2; i <= indice; i++)
+		for (uint64_t i = 2; i < indice; i++)
 		{
 			tmp = n_1;
 			n_1 = tmp + n_2;
