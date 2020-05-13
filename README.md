@@ -15,3 +15,5 @@ Malgré le fait que le client et le serveur ne communiquent pas de façon optima
 Pour finir, je pense aussi que certaines choses, comme par exemple la levée et le traitement des Exceptions, peuvent être optimisées.
 
 Merci encore, et bonne lecture !
+
+PS : chacun des script fonctionne avec Python 3 (3.6.9 sur ma machine) et Python 2 (2.7.17 sur ma machine).
