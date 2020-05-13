@@ -87,7 +87,7 @@ def fibonacci_calculate(packet_received, get_connexion):
 		get_connexion.send(b"[+] Traitement de la tache...")
 
 		# Indiquer le chemin absolu du binaire
-		fibonacci_calcul = ctypes.CDLL("/home/dodo/Bricolage/Scille/fibonacci_module.so")
+		fibonacci_calcul = ctypes.CDLL("/home/Scille/fibonacci_module.so")
 		fibonacci_result = fibonacci_calcul.fibonacci_module(fibonacci_number)
 		# fibonacci_calculate : nom de la fonction dans le .so
 
